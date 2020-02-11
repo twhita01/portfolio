@@ -79,3 +79,9 @@ h1{
 .body-content{
 	margin: 10px 25px;
 }
+
+.right-align{
+	float: right;
+	width: 450px;
+	margin: 10px 25px;
+}
