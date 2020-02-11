@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{padding: 0 0;
+margin: 0 0;
+list-style: none;
+text-decoration:none;
+font-family: avenir;
+}
+
+.navbar {
+	background-color: white;
+	overflow: hidden;
+	font-family: avenir; 
+	font-size: 20px;
+	width: 100%;
+}
+
+.navbar logo{
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 8px 0px 8px 25px;
+	text-decoration: none;
+	font-size: 50px;
+}
+
+.navbar a {
+	float: right;
+	color: black;
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 16px;
+	padding-right: 16px;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	color:gray;
+}
+
+a.farthest-right{
+	padding-right: 35px;
+}
+
+a.selected{
+	color: red;
+}
+
+
+hr.header-underline {
+	border-top: 1px dashed gray;
+	width: 100%;
+	margin-bottom: 15px;
+}
