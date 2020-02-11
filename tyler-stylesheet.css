@@ -84,4 +84,5 @@ h1{
 	float: right;
 	max-width: 450px;
 	margin: 10px 25px;
+	display:inline-block;
 }
