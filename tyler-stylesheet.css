@@ -86,3 +86,12 @@ h1{
 	margin: 10px 25px;
 	display: inline;
 }
+
+@media only screen and (max-width: 600px) {
+	image .right-align{
+		float: none;
+		max-width: 80%;
+		margin: 10px 25px;
+		display: block;
+	}
+}
