@@ -88,9 +88,10 @@ h1{
 }
 
 @media only screen and (max-width: 700px) {
+	
 	.right-align{
-		float: none;
-		max-width: 70%;
+		float:none;
+		max-width: 65%;
 		margin: 10px auto;
 		display: block;
 	}
