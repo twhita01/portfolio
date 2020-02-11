@@ -14,6 +14,9 @@ font-family: avenir;
 	font-family: avenir; 
 	font-size: 20px;
 	width: 100%;
+	position:fixed;
+	top:0;
+	height:80px;
 }
 
 .navbar logo{
@@ -25,6 +28,17 @@ font-family: avenir;
 	font-size: 50px;
 }
 
+.navbar logo2{
+	float: left;
+	color: red;
+	text-align: center;
+	padding: 8px 0px 8px 25px;
+	text-decoration: none;
+	font-size: 50px;
+	font-weight:bold; 
+	padding-left:10px;
+	
+}
 .navbar a {
 	float: right;
 	color: black;
@@ -47,6 +61,10 @@ a.selected{
 	color: red;
 }
 
+.bumper {
+	height:90px;
+	display:block;
+}
 
 hr.header-underline {
 	border-top: 1px dashed gray;
