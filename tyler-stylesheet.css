@@ -30,7 +30,7 @@ font-family: avenir;
 
 .navbar logo2{
 	float: left;
-	color: red;
+	color: #88abe3;
 	text-align: center;
 	padding: 8px 0px 8px 10px;
 	text-decoration: none;
@@ -57,7 +57,7 @@ a.farthest-right{
 }
 
 a.selected{
-	color: red;
+	color: #88abe3;
 }
 
 .bumper {
@@ -72,7 +72,7 @@ hr.header-underline {
 }
 
 h1{
-	font-size: 20px;
+	font-size: 50px;
 	font-weight:bold;
 }
 
@@ -88,6 +88,11 @@ h1{
 }
 
 @media only screen and (max-width: 700px) {
+	
+	h1 {
+		font-size: 40px;
+		test-align: center;
+	}
 	
 	.right-align{
 		float:none;
